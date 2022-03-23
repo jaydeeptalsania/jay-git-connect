@@ -26,12 +26,27 @@
       "header": {
         "type": "header",
         "settings": {
+          "align_logo": "left",
+          "logo_max_width": 100,
+          "main_linklist": "main-menu",
+          "message": false,
+          "home_page_only": true,
+          "message_text": "Announce something here",
+          "message_link": "",
+          "color_bg": "#7796a8",
+          "color_text": "#fff"
         }
       },
       "hero": {
         "type": "hero",
         "settings": {
-          "text_size": "large"
+          "alignment": "center",
+          "title": "Image with text overlay",
+          "text": "<p>Use overlay text to give your customers insight into your brand. Select imagery and text that relates to your style and story.<\/p>",
+          "hero_size": "medium",
+          "text_size": "large",
+          "button_label": "",
+          "button_link": ""
         }
       },
       "slideshow": {
@@ -40,11 +55,21 @@
           "slideshow-0": {
             "type": "image",
             "settings": {
+              "alignment": "center center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": "",
+              "button_link": ""
             }
           },
           "slideshow-1": {
             "type": "image",
             "settings": {
+              "alignment": "center center",
+              "slide_title": "Image slide",
+              "subheading": "Tell your brand's story through images",
+              "button_label": "",
+              "button_link": ""
             }
           }
         },
@@ -53,17 +78,33 @@
           "slideshow-1"
         ],
         "settings": {
+          "slideshow_height": "adapt",
+          "text_size": "medium",
+          "text_alignment": "center center",
+          "show_overlay": true,
+          "autorotate": false,
+          "autorotate_speed": 5
         }
       },
       "featured-collections": {
         "type": "collection",
         "settings": {
-          "collection": "frontpage"
+          "title": "Featured collection",
+          "collection": "frontpage",
+          "grid": 3,
+          "rows": 2,
+          "show_vendor": false,
+          "show_view_all": false
         }
       },
       "feature-row": {
         "type": "feature-row",
         "settings": {
+          "layout": "left",
+          "title": "Image with text",
+          "text": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+          "button_label": "",
+          "button_link": ""
         }
       },
       "footer": {
@@ -72,21 +113,28 @@
           "link_list": {
             "type": "link_list",
             "settings": {
+              "title": "Quick links",
+              "menu": "footer"
             }
           },
           "link_list-1": {
             "type": "link_list",
             "settings": {
+              "title": "Quick links",
+              "menu": "footer"
             }
           },
           "text": {
             "type": "text",
             "settings": {
+              "title": "Talk about your business",
+              "text": "<p>Share store details, promotions, or brand content with your customers.<\/p>"
             }
           },
           "newsletter": {
             "type": "newsletter",
             "settings": {
+              "title": "Newsletter"
             }
           }
         },
@@ -97,6 +145,15 @@
           "newsletter"
         ],
         "settings": {
+          "show_payment_icons": false,
+          "color_footer_bg": "#F5F5F5",
+          "color_footer_text": "#3d4246"
+        }
+      },
+      "1648034245c37d09b6": {
+        "type": "test",
+        "settings": {
+          "txt": "xyz"
         }
       }
     },
@@ -104,7 +161,8 @@
       "hero",
       "featured-collections",
       "feature-row",
-      "slideshow"
+      "slideshow",
+      "1648034245c37d09b6"
     ]
   },
   "presets": {
