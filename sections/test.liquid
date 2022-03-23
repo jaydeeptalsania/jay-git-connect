@@ -1,0 +1,20 @@
+<div id="shopify-section-{{section.id}}">
+  <h1>This is {{section.settings.txt}} section</h1>
+</div>
+{% schema %}
+ {
+   "name" : "Test section",
+   "settings":[
+     {
+       "type":"text",
+       "id":"txt",
+       "label":"Name"  
+     }
+   ],
+   "presets":[
+    {
+     "name":"Test section"
+    }
+   ]
+}
+{% endschema %}
