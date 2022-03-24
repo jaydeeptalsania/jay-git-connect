@@ -1,17 +1,18 @@
 {{'section-test.css'| asset_url | stylesheet_tag}}
-<div class="page-width">
-  <div class="grid test_grid">
+<div class="page-width test-section">
+  <h3 class="title">{{section.settings.title}}</h3>
+  <div class="grid">
    <div class="grid__item medium-up--one-quarter small--one-half">
-     <p> Part-1 </p>
+     <img src="{{section.settings.img1 | img_url:'master'}}" alt="">
    </div>
    <div class="grid__item medium-up--one-quarter small--one-half">
-    <p> Part-2 </p>
+    <img src="{{section.settings.img2 | img_url:'master'}}" alt="">
    </div>  
    <div class="grid__item medium-up--one-quarter small--one-half">
-    <p> Part-3 </p>
+    <img src="{{section.settings.img3 | img_url:'master'}}" alt="">
    </div>  
    <div class="grid__item medium-up--one-quarter small--one-half">
-    <p> Part-4 </p>
+    <img src="{{section.settings.img4 | img_url:'master'}}" alt="">
    </div>     
   </div>
 </div>
@@ -21,9 +22,29 @@
    "settings":[
      {
        "type":"text",
-       "id":"txt",
-       "label":"Name"  
-     }
+       "id":"title",
+       "label":"Title"
+     },
+     {
+       "type":"image_picker",
+       "id":"img1",
+       "label":"Image-1"  
+     },
+     {
+       "type":"image_picker",
+       "id":"img2",
+       "label":"Image-2"  
+     },
+     {
+       "type":"image_picker",
+       "id":"img3",
+       "label":"Image-3"  
+     },
+     {
+       "type":"image_picker",
+       "id":"img4",
+       "label":"Image-4"  
+     }          
    ],
    "presets":[
     {
