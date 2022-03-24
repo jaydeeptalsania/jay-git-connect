@@ -1,5 +1,19 @@
-<div id="shopify-section-{{section.id}}">
-  <h1>This is {{section.settings.txt}} section</h1>
+{{'section-test.css'| asset_url | stylesheet_tag}}
+<div class="page-width">
+  <div class="grid test_grid">
+   <div class="grid__item medium-up--one-quarter small--one-half">
+     <p> Part-1 </p>
+   </div>
+   <div class="grid__item medium-up--one-quarter small--one-half">
+    <p> Part-2 </p>
+   </div>  
+   <div class="grid__item medium-up--one-quarter small--one-half">
+    <p> Part-3 </p>
+   </div>  
+   <div class="grid__item medium-up--one-quarter small--one-half">
+    <p> Part-4 </p>
+   </div>     
+  </div>
 </div>
 {% schema %}
  {
